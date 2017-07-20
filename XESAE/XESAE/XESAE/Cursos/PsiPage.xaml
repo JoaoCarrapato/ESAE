@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Psicologia Clínica"
+             x:Class="XESAE.Cursos.PsiPage">
+    <ScrollView>
+        <StackLayout Padding="20">
+            <Label StyleClass="Header" TextColor="Orange" Text="Psicologia Clínica"></Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label Text="No âmbito do 2.º ciclo de formação em Psicologia no Instituto Superior Miguel Torga, conducente ao grau de Mestre de acordo com o novo modelo de organização do ensino superior, foi registada a adequação do Curso de Mestrado em Psicologia Clínica (Nº de Registo - R/B - AD - 54/2007 - DR, 2ª série, nº 28 de 8 de fevereiro de 2007). 
+O 2º ciclo da formação em Psicologia organiza-se ao longo de dois anos de trabalho de 60 ECTS, cada um, perfazendo um total de 120 ECTS. 
+O primeiro ano de trabalho é constituído por 12 unidades curriculares (6 por semestre) de 5 ECTS cada. Cada uma destas unidades curriculares deve adotar objetivos, metodologias e avaliações específicas no âmbito da formação proposta para este 2º ciclo. 
+O segundo ano de formação é composto por um estágio de caráter profissionalizante (30 ECTS) e pela elaboração de uma dissertação final (30 ECTS). 
+O Mestrado em Psicologia Clínica apresenta três áreas de especialização. "></Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label TextColor="Orange" StyleClass="Header" Text="Número de Créditos Necessários á Obtenção do Grau ou Diploma"></Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label Text="120 ECTS"></Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label TextColor="Orange" StyleClass="Header" Text="Duração do Curso"></Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label Text="4 Semestres"></Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label StyleClass="Header" TextColor="Orange" Text="Coordenação Científica"></Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label  Text="Professor Doutor Carlos Farate;&#10;Professora Doutora Joana Sequeira;&#10;Professora Doutora Marina Cunha"></Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label TextColor="Orange" StyleClass="Header" Text="Objetivos"></Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label Text="Referem-se, de seguida, os objetivos visados pelo 2.º ciclo de estudos em Psicologia Clínica, em termos da aquisição de competências especializadas pelos estudantes que venham a frequentar este Mestrado: 
+- Aprender a manusear as grelhas de diagnóstico clínico e psicopatológico que são próprias à orientação teórica de cada uma das variantes especializadas; 
+- Desenvolver a compreensão crítica das dimensões descritiva, semiológica e estrutural das perturbações do funcionamento mental (da infância à idade adulta) e aplicá-las corretamente ao tratamento psicológico; 
+- Estruturar competências de avaliação psicológica (clínica, psicométrica, sistémica e projetiva) e integrá-las de um modo, simultaneamente, crítico e pertinente ao contexto terapêutico; 
+- Aprender a utilizar as competências necessárias à realização da consulta psicológica; 
+- Treinar competências técnicas específicas a cada modelo de tratamento psicológico, com base numa sólida formação sobre os seus pressupostos teóricos e modalidade de intervenção (individual, de grupo, familiar) preferencial, de acordo com o quadro clínico identificado; 
+- Transmitir os preceitos deontológicos da profissão de psicólogo, com realce para a dimensão ética da intervenção psicológica , na sua dupla finalidade terapêutica e maiêutica; 
+- Adquirir competências bastantes para o trabalho personalizado em equipas de natureza interdisciplinar, em diferentes contextos (instituição, campo, gabinete) e níveis de intervenção (cuidados primários, diferenciados e especializados); 
+- Desenvolver capacidades para: leitura crítica e interpretação eficaz de informação especializada; sua utilização no planeamento de ações de natureza preventiva e/ou terapêutica; ponderação escorreita de dificuldades conjunturais ou estruturais; tomada de decisões; liderança e/ou assessoria pertinente a colegas de profissão, ou com outra formação disciplinar, nos processos de tomada de decisões; 
+- Adquirir hábitos consistentes de reflexão contínua relativamente à prática da profissão de psicólogo, com realce para a monitorização reflexiva do processo terapêutico dos indivíduos em tratamento, o recurso pertinente a supervisão por especialistas experientes de reconhecido mérito e a adequada transmissão do material terapêutico a pares e/ou especialistas com diferentes formações disciplinares; 
+- Desenvolver o interesse pela investigação em psicologia e saúde mental, com um enfoque particular na integração criativa e personalizada em projetos científicos com caráter aberto e transdisciplinar; 
+- Destacar a importância das metodologias de investigação sobre o processo e os resultados terapêuticos, nomeadamente o interesse pela participação em estudos multicêntricos de qualidade neste domínio; 
+- Estimular a adoção de uma cultura de investigação clínica, conceptual e empírica caracterizada por rigor teórico, eficácia metodológica e eficiente aplicação dos resultados à prática clínica; 
+Em suma, possibilitar ao estudante que concluiu com êxito o 1.º ciclo de estudos em Psicologia, a aquisição de competências técnicas e científicas especializadas de excelência num domínio tradicionalmente tão importante (e dinâmico) da psicologia como a Clínica, atribuindo, ao mesmo tempo, um cuidado particular à natureza hierarquizada e interativa do conjunto de unidades curriculares que estruturam cada uma das variantes especializadas deste Mestrado.">
+            </Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label TextColor="Orange" StyleClass="Header" Text="Destinatátios"></Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label Text="Titulares de licenciaturas (1º ciclo ou equivalente) em Gestão ou outras áreas das Ciências Empresariais, Economia, Direito, Psicologia, Sociologia, Serviço Social ou outras que se enquadrem nos objetivos do curso."></Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label TextColor="Orange" StyleClass="Header" Text="REQUISITOS DO PROGRAMA DE ESTUDOS:"></Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label Text="Área de Especialização em Psicoterapia Psicodinâmica: titulares do 1.º ciclo de estudos em Psicologia e licenciados e pós-graduados em Psicologia;&#10;Área de Especialização em Terapias Cognitivo-Comportamentais: titulares do 1.º ciclo de estudos em Psicologia e licenciados e pós-graduados em Psicologia;&#10;Área de Especialização em Terapias Familiares e Sistémicas: titulares do 1.º ciclo de estudos em Psicologia e licenciados e pós-graduados em Psicologia.">
+            </Label>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

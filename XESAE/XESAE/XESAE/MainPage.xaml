@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XESAE"
+             x:Class="XESAE.MainPage"
+             Title="ISMT/ESAE">
+
+    <StackLayout>
+        <Button Text="Portal do Instituto"
+                StyleClass="Primary"
+                x:Name="btn_Portal"
+                WidthRequest="250"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Clicked="btn_Portal_Clicked"/>
+
+        <Button Text="Noticias"
+                StyleClass="Primary"
+                x:Name="btn_Noticias"
+                WidthRequest="250"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Clicked="btn_Noticias_Clicked" />
+
+        <!--<Button Text="Eventos"
+                StyleClass="Primary"
+                x:Name="btn_Eventos"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Clicked="btn_Eventos_Clicked" />-->
+
+        <Button Text="Cursos"
+                x:Name="btn_Cursos"
+                StyleClass="Primary"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                WidthRequest="250"
+                Clicked="btn_Cursos_Clicked"/>
+
+        <Button Text="Estagios"
+                StyleClass="Primary"
+                x:Name="btn_Estagios"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                WidthRequest="250"
+                Clicked="btn_Estagios_Clicked"/>
+
+        <Button Text="Contacto"
+                StyleClass="Primary"
+                x:Name="btn_Contacto"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                WidthRequest="250"
+                Clicked="btn_Contacto_Clicked"/>
+
+        <Button Text="Horario"
+                x:Name="btn_Horario"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                WidthRequest="250"
+                Clicked="btn_Horario_Clicked"/>
+
+        <Button Text="Person"
+                x:Name="btn_person"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Clicked="btn_person_Clicked"/>
+
+        <Button Text="Login"
+                x:Name="btn_Login"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="EndAndExpand"
+                Clicked="btn_Login_Clicked" 
+                Margin="-7"
+                BackgroundColor="Green"
+                BorderRadius="0"
+                BorderWidth="0"
+                HeightRequest = "100" />
+
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Serviço Social"
+             x:Class="XESAE.Cursos.SSPage">
+    <ScrollView>
+        <StackLayout Padding="20">
+            <Label StyleClass="Header" TextColor="Orange" Text="Serviço Social"></Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label Text="Curso acreditado pela Agência de Avaliação e Acreditação do Ensino Superior por um período de 3 anos Decisão do Conselho de Administração da Agência de Avaliação e Acreditação do Ensino Superior. [pdf] 
+
+    O curso de 2.º ciclo em GRH e Comportamento Organizacional do ISMT foi reconhecido para efeitos de progressão na carreira docente, ao abrigo do disposto na Portaria n.º 344/2008, para o grupo de recrutamento 430 (economia e contabilidade) do 3.º ciclo do ensino básico e do ensino secundário.
+    Esta informação está disponível no site da DGAE (Direção-Geral da Administração Escolar) - www.dgae.mec.pt (área 'docentes', separador 'habilitações'/ 'reconhecimento de mestrados e doutoramentos')."></Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label StyleClass="Header" TextColor="Orange" Text="Área Científica Predominante do Curso"></Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label Text="Gestão e Administração"></Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label TextColor="Orange" StyleClass="Header" Text="Número de Créditos Necessários á Obtenção do Grau ou Diploma"></Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label Text="120 ECTS"></Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label TextColor="Orange" StyleClass="Header" Text="Duração do Curso"></Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label Text="4 semestres"></Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label StyleClass="Header" TextColor="Orange" Text="Coordenação Científica"></Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label  Text="Prof. Doutora Dulce Serra Simões 
+
+Doutora na Universidade Nova de Lisboa,Faculdade de Ciências Sociais e Humanas, Instituto Superior Miguel Torga e Instituto de Etnomusicologia - Centro de Estudos em Música e Dança">
+
+            </Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+
+            <Label TextColor="Orange" StyleClass="Header" Text="Contacto Coordenação"></Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label Text="servicosocialcoordenacaolic@ismt.pt&#10;dulce_simoes@ismt.pt">
+            </Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label TextColor="Orange" StyleClass="Header" Text="Apresentação"></Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label Text="O Instituto Superior Miguel Torga tem por objetivo uma trajetória que o coloca como profissão inserida na divisão sócio-técnica do trabalho. A formação académica deve contribuir para a construção de uma identidade profissional, através de uma sólida qualificação teórica, metodológica 
+                   e ético-política, e de uma capacitação operacional e prática de investigação que alicerce o conhecimento do Serviço Social e a sua produção, dando suporte 
+                   à interlocução com as outras áreas das Ciências Sociais. .">
+            </Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <!--OBJECTIVOS-->
+            <Label TextColor="Orange" StyleClass="Header" Text="Objectivos"></Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label Text="Formar futuros profissionais na área do Serviço Social;&#10;Reforçar o nível de competências e a capacidade de integração Social dos alunos do 1º ciclo de estudos em gestão de recursos humanos;&#10;Possibilitar a atualização dos conhecimentos e das práticas por parte de profissionais com experiência na área;Contribuir para desenvolver e /ou redirecionar carreiras profissionais;&#10;Possibilitar o alargamento de oportunidades emprego por parte de licenciados das áreas dos Serviços Sociais, empresariais ou outras;&#10;Proporcionar uma formação alinhada com as atuais exigências organizacionais do perfil dos profissionais do Serviço Socail;&#10;Habilitar os profissionais de Serviço Social para uma efetiva contribuição para o valor da sociedade;&#10;Desenvolver interesse e competências de investigação;">
+            </Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <!--DESTINATARIOS-->
+            <Label TextColor="Orange" StyleClass="Header" Text="Destinatátios"></Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label Text="Titulares de licenciaturas (1º ciclo ou equivalente) em Gestão ou outras áreas das Ciências Empresariais, Economia, Direito, Psicologia, Sociologia, Serviço Social ou outras que se enquadrem nos objetivos do curso."></Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label TextColor="Orange" StyleClass="Header" Text="REQUISITOS DO PROGRAMA DE ESTUDOS:"></Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label Text="A atribuição do grau académico de Mestre em Gestão de Recursos Humanos e Comportamento Organizacional exige o preenchimento cumulativo dos seguintes requisitos: obtenção de um mínimo de 120 ECTS; obtenção de um total de 110 ECTS nas unidades curriculares obrigatórias; obtenção de um mínimo de 10 ECTS em unidades curriculares opcionais; obtenção de um mínimo de 95 ECTS em unidades curriculares da área de Gestão e Administração; obtenção de um mínimo de 5 ECTS em unidades curriculares da área de Psicologia; obtenção de um mínimo de 5 ECTS em unidades curriculares da área do Direito; obtenção de um mínimo de 5 ECTS em unidades curriculares da área de Saúde e Segurança no Trabalho.">
+
+            </Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <!--SAIDAS PROFISSIONAIS-->
+            <Label TextColor="Orange" StyleClass="Header" Text="Saídas Profissionais"></Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label Text="Segurança Social, Saúde,  Autarquias Locais, Justiça, Trabalho e Educação, Intervenção Psicoterapêutica e Psicossocial, Habilitação própria para a docência">
+            </Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+
+            <Label TextColor="Orange" StyleClass="Header" Text="Condições de Acesso"></Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label Text="Titulares do grau de licenciado ou equivalente legal;&#10;Titulares de um grau académico superior estrangeiro conferido na sequência de um 1º ciclo de estudos organizado de acordo com os princípios do Processo de Bolonha, por um Estado aderente a este processo;&#10;Titulares de um grau académico superior estrangeiro que seja reconhecido como satisfazendo os objetivos do grau de licenciado pelo órgão científico estatutariamente competente do estabelecimento de ensino superior onde pretendem ser admitidos;&#10;Detentores de um currículo escolar, científico ou profissional que seja reconhecido como atestando capacidade para a realização deste ciclo de estudos pelo órgão científico estatutariamente competente do estabelecimento de ensino superior onde pretendem ser admitidos.">
+            </Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label TextColor="Orange" StyleClass="Header" Text="Critétios de Seriação"></Label>
+            <BoxView HeightRequest="1" BackgroundColor="Orange" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label Text=" Os candidatos serão seriados tendo em atenção os seguintes critérios:">
+
+            </Label>
+            <Label Text="a) licenciatura (1º ciclo ou equivalente) em Gestão ou outras áreas das Ciências Empresariais, Economia, Direito, Psicologia, Sociologia, Serviço Social ou outras que se enquadrem nos objetivos do curso;&#10;b) Classificação de licenciatura; &#10;c) Currículo académico e científico; &#10;d) Experiência profissional; &#10;e) Eventual entrevista.">
+
+
+            </Label>
+
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

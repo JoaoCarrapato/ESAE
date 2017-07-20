@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Perfil"
+             x:Class="XESAE.PerfilPage">
+
+    <StackLayout HorizontalOptions="FillAndExpand">
+        <!-- ListView utilizando uma "Custom Cell" e respetivo template -->
+        <ListView x:Name="user" HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+
+                            <StackLayout Spacing="3" Orientation="Horizontal">
+                                <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                                    <Label HorizontalOptions="CenterAndExpand" FontSize="28" Text="{Binding name}" />
+
+
+                                    <StackLayout Orientation="Horizontal">
+                                        <Label HorizontalOptions="CenterAndExpand" Text="Curso:"/>
+                                        <Label HorizontalOptions="CenterAndExpand" Text="{Binding curso}" />
+                                    </StackLayout>
+
+                                    <StackLayout Orientation="Horizontal">
+                                        <Label HorizontalOptions="CenterAndExpand" Text="Email:"></Label>
+                                        <Label HorizontalOptions="CenterAndExpand" Text="{Binding email}" />
+                                    </StackLayout>
+
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+            <Image Source="icon.png"></Image>
+            <Image Source="icon.png"></Image>
+            <Image Source="icon.png"></Image>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

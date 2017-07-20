@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Pessoal"
+             x:Class="XESAE.PersonPage">
+
+    <!-- <StackLayout HorizontalOptions="FillAndExpand">
+        <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
+            
+            <StackLayout Orientation="Horizontal" x:Name="user">
+                <Image HeightRequest="50" WidthRequest="50" Source="icon.png" />
+                <Button VerticalOptions="Center" FontSize="28" Text="Perfil" />
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal">
+                <Image HeightRequest="50" WidthRequest="50" Source="icon.png" />
+                <Button VerticalOptions="Center" FontSize="28" Text="Mensagens" />
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal">
+                <Image HeightRequest="50" WidthRequest="50" Source="icon.png" />
+                <Button VerticalOptions="Center" FontSize="28" Text="Notas" />
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal">
+                <Image HeightRequest="50" WidthRequest="50" Source="icon.png" />
+                <Button VerticalOptions="Center" FontSize="28" Text="Horarios" />
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal">
+                <Image HeightRequest="50" WidthRequest="50" Source="icon.png" />
+                <Button VerticalOptions="Center" FontSize="28" Text="Finanças" />
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal">
+                <Image HeightRequest="50" WidthRequest="50" Source="icon.png" />
+                <Button VerticalOptions="Center" FontSize="28" Text="Configurações" />
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal">
+                <Image HeightRequest="50" WidthRequest="50" Source="icon.png" />
+                <Button VerticalOptions="Center" FontSize="28" Text="Sobre" />
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal">
+                <Image HeightRequest="50" WidthRequest="50" Source="icon.png" />
+                <Button VerticalOptions="Center" FontSize="28" Text="Contactos" />
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Image HeightRequest="50" WidthRequest="50" Source="icon.png" />
+                <Button VerticalOptions="Center" FontSize="28" Text="Terminar Sessão" />
+            </StackLayout>
+            
+
+        </StackLayout>
+    </StackLayout>-->
+
+    <ListView x:Name="MenuView" ItemSelected="MenuView_ItemSelected">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <TextCell Text="{Binding name}" />
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>

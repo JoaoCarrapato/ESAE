@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XESAE.CursoPage"
+             Title="Cursos">
+
+    <!--<StackLayout HorizontalOptions="FillAndExpand">
+        <ListView x:Name="curso" ItemTapped="CursoItems_OnItemTapped" SelectedItem="CursoView_SelectedItem" HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <StackLayout Orientation="Horizontal">
+                                <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                                    <Label StyleClass="Header" Text="{Binding name}" />
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+    </StackLayout>-->
+
+    <StackLayout>
+        <Button Text="Gestão de Recursos Humanos e Comportamento Organizacional"  
+                StyleClass="Primary"
+                x:Name="btn_GRH"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="Center"
+                Clicked="btn_GRH_Clicked"></Button>
+        
+        <Button Text="Psicologia Clínica"
+                StyleClass="Primary"
+                x:Name="btn_Psi"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="Center"
+                Clicked="btn_Psi_Clicked"></Button>
+        
+        <Button Text="Serviço Social"
+                StyleClass="Primary"
+                x:Name="btn_SS"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="Center"
+                Clicked="btn_SS_Clicked"></Button>
+    </StackLayout>
+    
+</ContentPage>

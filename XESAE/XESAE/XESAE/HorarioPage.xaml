@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XESAE.HorarioPage"
+             Title="Horario">
+
+    <StackLayout HorizontalOptions="FillAndExpand">
+    <!-- ListView utilizando uma "Custom Cell" e respetivo template -->
+    <ListView x:Name="horario" HasUnevenRows="True">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <ViewCell.View>
+
+                        <StackLayout Spacing="5" Orientation="Horizontal">
+                            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                                <Label HorizontalOptions="CenterAndExpand" FontSize="28" Text="{Binding weekday}" />
+
+
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding disciplina}" />
+                                </StackLayout>
+
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="Sala:"></Label>
+                                    <Label Text="{Binding classroom}" />
+                                </StackLayout>
+
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="Início:"></Label>
+                                    <Label Text="{Binding timebegin,StringFormat='{}{0:HH\\:mm}'}" />
+                                </StackLayout>
+
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="Fim:"></Label>
+                                    <Label Text="{Binding timeend,StringFormat='{}{0:HH\\:mm}'}" />
+                                </StackLayout>
+
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell.View>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+            <Image Source="icon.png"></Image>
+            <Image Source="icon.png"></Image>
+            <Image Source="icon.png"></Image>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
