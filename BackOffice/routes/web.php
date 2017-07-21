@@ -34,7 +34,7 @@ Route::get('/', 'PagesController@index')->name('index');
     Route::resource('financa', 'FinancasControllerBack');
 
 Route::group(array('prefix' => 'api'), function() {
-	Route::resource('cursos', 'CursoController');
+	Route::resource('cursos', 'CursosController');
 	Route::resource('horarios', 'HorarioController');
 	Route::resource('eventos', 'EventoController');
 	Route::resource('financas', 'FinancaController');
